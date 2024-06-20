@@ -33,3 +33,5 @@ if ! grep -Fxq "$LINE" ~/.xprofile; then
     echo "$LINE" >> ~/.xprofile
 fi
 
+echo("Disable and enable the `Key repeat` setting (System Settings -> Keyboard -> Typing)")
+
