@@ -28,6 +28,11 @@ wget --output-document=microsoft-edge.deb "https://go.microsoft.com/fwlink?linki
 sudo apt install -y ./microsoft-edge.deb
 rm -f ./microsoft-edge.deb
 
+# Install Tor (browser)
+wget --output-document=tor-browser.tar.xz "https://www.torproject.org/dist/torbrowser/13.5.2/tor-browser-linux-x86_64-13.5.2.tar.xz"
+sudo tar -xf tor-browser.tar.xz -C /usr/local
+rm -f ./tor-browser.tar.xz
+
 # Install Diodon (clipboard manager)
 sudo apt install diodon
 diodon &
