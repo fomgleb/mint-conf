@@ -44,6 +44,8 @@ sudo apt install slimbookbattery
 # Install GitHub CLI
 sudo apt install gh
 
-#Install GitLab CLI
+# Install GitLab CLI
 curl -s https://raw.githubusercontent.com/profclems/glab/trunk/scripts/install.sh | sudo bash
 
+# Install Remmina (remote desktop client)
+sudo apt install remmina
